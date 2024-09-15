@@ -1,0 +1,13 @@
+READ ME!
+the first step would to be to download the kali attacker and ubuntu folder 
+after this is done install oracle virtualbox   https://www.virtualbox.org/wiki/Downloads
+once you have done this open virtual box and use the import option when you hover over file and then use the .ova file of each of the vm enviroments 
+then make sure that the network settings are set to host only adapter
+while you run it to get to the app that i have made copy the following into the terminal
+cd scripts
+python3 detector1.0.py
+
+if you want to access the rules folder that i have changed to get the detections you can find that with 
+sudo vim /etc/snort/rules/local.rules
+and then if you want to test it on the kali linux machine you shold find the attacks yopu can issue using
+nano attacks.txt
